@@ -2,8 +2,8 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.springframework.samples</groupId>
-    <artifactId>spring-framework-petclinic</artifactId>
+    <groupId>mk-org.springframework.samples</groupId>
+    <artifactId>mk-spring-framework-petclinic</artifactId>
     <version>5.3.13</version>
 
     <name>Spring Framework Petclinic</name>
@@ -74,7 +74,7 @@
         <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
         <maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
         <maven-war-plugin.version>3.3.1</maven-war-plugin.version>
-        <jacoco-maven-plugin>0.8.8</jacoco-maven-plugin>
+        <jacoco-maven-plugin>0.8.7</jacoco-maven-plugin>
 
         <!-- Docker image -->
         <docker.jib-maven-plugin.version>2.6.0</docker.jib-maven-plugin.version>
