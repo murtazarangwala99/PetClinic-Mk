@@ -100,6 +100,18 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+    <distributionManagement>
+             <repository>
+                 <id>maven-releases</id>
+                 <name>Nexus Repository</name>
+                 <url>http://192.168.31.104:8081/repository/maven-releases/</url>
+             </repository>
+<!--              <snapshotRepository>
+                 <id>nexus</id>
+                 <name>Nexus Snapshot Repository</name>
+                 <url>http://your-nexus-server:8081/repository/maven-snapshots/</url>
+             </snapshotRepository> -->
+</distributionManagement>
 
     <dependencies>
         <dependency>
